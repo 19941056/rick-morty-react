@@ -42,7 +42,7 @@ const App = () => {
           <>
             <h2>{character.name}</h2>
             <img src={character.image} alt={character.name} />
-            <p>#{character.id}</p>
+            <h2 className="id">#{character.id}</h2>
           </>
           
         )}
